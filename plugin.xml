@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="insert.∈"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+,">
+      </key>
+      <key
+            commandId="insert.↦"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+.">
+      </key>
+      <key
+            commandId="insert.±"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+SHIFT+=">
+      </key>
+      <key
+            commandId="insert.×"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="ALT+SHIFT+8">
+      </key>
+      <key
+            commandId="insert.·"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="ALT+.">
+      </key>
+      <key
+            commandId="insert.÷"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="ALT+/">
+      </key>
+      <key
+            commandId="insert.¬"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="ALT+SHIFT+1">
+      </key>
+      <key
+            commandId="insert.≤"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="ALT+SHIFT+&lt;">
+      </key>
+      <key
+            commandId="insert.≥"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="ALT+SHIFT+.">
+      </key>
+      <key
+            commandId="insert.⇒"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="ALT+SHIFT+=">
+      </key>
+      <key
+            commandId="insert.∞"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="\ I N F">
+      </key>
+      <key
+            commandId="insert.≠"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="ALT+=">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="uniclipser.InsertHandler"
+            commandId="insert.unicode">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="insert.unicode"
+            name="Unicode Characters">
+      </category>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Member of set symbol (∈)"
+            id="insert.∈"
+            name="∈">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Function definition arrow (↦)"
+            id="insert.↦"
+            name="↦">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Multiplication symbol (×)"
+            id="insert.×"
+            name="×">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Plus / minus symbol (±)"
+            id="insert.±"
+            name="±">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Dot product / composition symbol (·)"
+            id="insert.·"
+            name="·">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Division symbol (÷)"
+            id="insert.÷"
+            name="÷">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Logical negation symbol (¬)"
+            id="insert.¬"
+            name="¬">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Approximately equal symbol (≈)"
+            id="insert.≈"
+            name="≈">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Less or equal symbol (≤)"
+            id="insert.≤"
+            name="≤">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Greater or equal symbol (≥)"
+            id="insert.≥"
+            name="≥">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Infinity symbol (∞)"
+            id="insert.∞"
+            name="∞">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Not-equals symbol (≠)"
+            id="insert.≠"
+            name="≠">
+      </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Implication symbol (⇒)"
+            id="insert.⇒"
+            name="⇒">
+      </command>
+   </extension>
+
+
+</plugin>
