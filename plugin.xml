@@ -67,7 +67,7 @@
             commandId="insert.∞"
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="\ I N F">
+            sequence="CTRL+ALT+8">
       </key>
       <key
             commandId="insert.≠"
