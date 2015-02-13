@@ -7,13 +7,13 @@
             commandId="insert.∈"
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="CTRL+,">
+            sequence="CTRL+SHIFT+,">
       </key>
       <key
             commandId="insert.↦"
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="CTRL+.">
+            sequence="CTRL+SHIFT+.">
       </key>
       <key
             commandId="insert.±"
