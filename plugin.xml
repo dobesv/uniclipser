@@ -13,7 +13,7 @@
             commandId="insert.↦"
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="CTRL+SHIFT+.">
+            sequence="ALT+SHIFT+.">
       </key>
       <key
             commandId="insert.±"
@@ -49,13 +49,13 @@
             commandId="insert.≤"
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="ALT+SHIFT+&lt;">
+            sequence="CTRL+ALT+SHIFT+&lt;">
       </key>
       <key
             commandId="insert.≥"
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="ALT+SHIFT+.">
+            sequence="CTRL+ALT+SHIFT+.">
       </key>
       <key
             commandId="insert.⇒"
