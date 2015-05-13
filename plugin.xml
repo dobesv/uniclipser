@@ -28,7 +28,7 @@
             sequence="ALT+SHIFT+8">
       </key>
       <key
-            commandId="insert.·"
+            commandId="insert.∘"
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
             sequence="ALT+.">
@@ -75,6 +75,11 @@
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
             sequence="ALT+=">
       </key>
+      <key
+            commandId="insert.′"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="ALT+'"/>
    </extension>
    <extension
          point="org.eclipse.ui.handlers">
@@ -120,9 +125,9 @@
       <command
             categoryId="insert.unicode"
             defaultHandler="uniclipser.InsertHandler"
-            description="Dot product / composition symbol (·)"
-            id="insert.·"
-            name="·">
+            description="Function composition operator (∘)"
+            id="insert.∘"
+            name="∘">
       </command>
       <command
             categoryId="insert.unicode"
@@ -180,6 +185,14 @@
             id="insert.⇒"
             name="⇒">
       </command>
+      <command
+            categoryId="insert.unicode"
+            defaultHandler="uniclipser.InsertHandler"
+            description="Prime (derivative) symbol (′)"
+            id="insert.′"
+            name="′">
+      </command>
+
    </extension>
 
 
